@@ -1,3 +1,6 @@
+# Author
+Sunny Lum(https://github.com/sunnylum/)
+
 # Accept a Payment
 
 Build a simple checkout form to collect payment details. Included are some basic
