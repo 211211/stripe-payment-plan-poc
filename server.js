@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 // This is a sample test API key.
-const stripe = require("stripe")("sk_test_XXYwwDRro2q39lnZIscrWP5x");
+const stripe = require("stripe")("");
 
 app.use(express.static("public"));
 app.use(express.json());

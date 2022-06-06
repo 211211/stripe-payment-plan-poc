@@ -11,7 +11,7 @@ import { loadStripe } from "@stripe/stripe-js";
 // Make sure to call loadStripe outside of a component’s render to avoid
 // recreating the Stripe object on every render.
 // loadStripe is initialized with a fake API key.
-const stripePromise = loadStripe("pk_test_p9R8CxZfH5OR9y6GtLbPAoKT");
+const stripePromise = loadStripe("");
 
 const App = () => {
   const [clientSecret, setClientSecret] = useState("");
